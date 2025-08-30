@@ -2,29 +2,6 @@
 
 This repo contains verilog code for an asynchronous FIFO.
 
-## Table of Contents
-1. [Author](#author)
-2. [Introduction](#introduction)
-3. [Design Space Exploration and Design Strategies](#design-space-exploration-and-design-strategies)
-    1. [Read and Write Operations](#read-and-write-operations)
-        1. [Operations](#operations)
-        2. [Full, empty and wrapping condition](#full-empty-and-wrapping-condition)
-        3. [Gray Code Counter](#gray-code-counter)
-    2. [Signals Defination](#signals-defination)
-    3. [Dividing System Into Modules](#dividing-system-into-modules)
-        1. [FIFO.v](#fifov)
-        2. [FIFO_memory.v](#fifo_memoryv)
-        3. [two_ff_sync.v](#two_ff_syncv)
-        4. [rptr_empty](#rptr_emptyv)
-        5. [wptr_full.v](#wptr_fullv)
-4. [Testbench Case Implementation](#testbench-case-implementation)
-    1. [Waveforms](#waveforms)
-5. [Results](#results)
-6. [Conclusion](#conclusion)
-7. [References](#references)
-   
-## Author
-[PRAJWAL PIMPALKAR](www.linkedin.com/in/prajwal-pimpalkar-046573160), M. Tech. RF & Microwave (2024-26), IIT Kanpur
 
 ## Introduction
 
